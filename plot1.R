@@ -1,7 +1,7 @@
 library(dplyr)
 
 ## read complete dataset
-##energy <- read.csv("household_power_consumption.txt", header = TRUE, sep = ";")
+energy <- read.csv("household_power_consumption.txt", header = TRUE, sep = ";")
 
 ## subset data from 2007-02-01 and 2007-02-02
 energy_feb <- subset(energy, Date=="1/2/2007" | Date=="2/2/2007")
