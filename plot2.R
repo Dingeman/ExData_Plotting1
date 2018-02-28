@@ -15,5 +15,5 @@ energy_feb$Global_active_power <- as.numeric(as.character(energy_feb$Global_acti
 
 ## create requested plot
 png(filename = "plot2.png", width = 480, height = 480)
-plot(energy_feb$Timestamp, energy_feb$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts")
+plot(energy_feb$Timestamp, energy_feb$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
 dev.off()
